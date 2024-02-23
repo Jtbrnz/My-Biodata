@@ -1,0 +1,32 @@
+  .container {
+        position: relative;
+        text-align: center;
+        color: orange;
+      }
+     .text {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 80px;
+        border-radius: 10px;
+        width: 80%; 
+        text-align: left;
+        font-family: Times New Roman;
+      }
+      
+#currentDateTime {
+  margin-top: 30px;
+  font-size: 25px;
+  color: #888;
+  font-weight: bold;
+}
+
+audio,
+video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 20px;
+}
